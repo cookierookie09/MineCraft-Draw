@@ -1,8 +1,11 @@
 {
-    "parent": "block/orientable",
-    "textures": {
-        "top": "blocks/pumpkin_top",
-        "front": "blocks/pumpkin_face_off",
-        "side": "blocks/pumpkin_side"
-    }
+ "parent": "item/generated",
+ "textures": {
+  "layer0": "item/carved_pumpkin"
+ },
+ 
+ "overrides": [
+  {"predicate": {"custom_model_data":1}, "model": "block/custom/test"},
+     {"predicate": {"custom_model_data":2}, "model": "block/custom/bow"}
+ ]
 }
